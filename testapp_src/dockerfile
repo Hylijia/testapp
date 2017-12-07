@@ -1,0 +1,9 @@
+FROM registry.thunisoft.com:5000/base/tomcat:8-jdk8-6
+
+ADD jenkins.war /opt/tomcat/webapps
+#ENV JENKINS_HOME=/var/jenkins_home
+
+#EXPOSE 8080
+#VOLUME ["/var/jenkins_home"]
+#CMD ["/opt/tomcat/bin/catalina.sh","run"]
+
