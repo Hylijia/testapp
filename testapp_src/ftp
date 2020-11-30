@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T08:35:01.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="aNLdlriKAZqLyJPwJcmZ" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T08:45:16.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NZT1drV1rXwU2XimJH4_" version="13.10.4" type="github">
   <diagram id="kopYDX6gN_QNqiy2eTGY" name="Page-1">
     <mxGraphModel dx="764" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YAc0Lw_-wKXcf0nrSzQl-1" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="YAc0Lw_-wKXcf0nrSzQl-1" value="FTP客户端" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="90" y="65" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-1" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-1" value="FTP服务端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="409" y="66" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-2" value="&amp;gt;1024（data）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="100" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-4" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-140" width="80" height="80" as="geometry" />
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-4" value="FTP客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="-70" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-5" value="服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="399.5" y="-140" width="80" height="80" as="geometry" />
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-5" value="FTP服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="428" y="-70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-9" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="6WTvOl6pzolPNPpMW-SW-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="-120" as="sourcePoint" />
-            <mxPoint x="414" y="-110" as="targetPoint" />
+            <mxPoint x="178.5" y="-50" as="sourcePoint" />
+            <mxPoint x="442.5" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-11" value="上传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-9">
@@ -32,8 +32,8 @@
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-10" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6WTvOl6pzolPNPpMW-SW-5" target="6WTvOl6pzolPNPpMW-SW-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="-99" as="sourcePoint" />
-            <mxPoint x="320" y="-90" as="targetPoint" />
+            <mxPoint x="418.5" y="-29" as="sourcePoint" />
+            <mxPoint x="348.5" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-12" value="下载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-10">
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-22" value="主动模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="30" width="130" height="20" as="geometry" />
+          <mxGeometry x="230" y="76" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-23" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -178,7 +178,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-42" value="被动模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="189" y="430" width="130" height="48" as="geometry" />
+          <mxGeometry x="220" y="466" width="130" height="48" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-43" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
