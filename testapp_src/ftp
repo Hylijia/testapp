@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T08:23:42.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="iPilOoyauaLS5XFiysVW" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T08:35:01.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="aNLdlriKAZqLyJPwJcmZ" version="13.10.4" type="github">
   <diagram id="kopYDX6gN_QNqiy2eTGY" name="Page-1">
     <mxGraphModel dx="764" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
             <mxPoint x="440" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-25" value="客户端开始发送信息给服务端，&lt;br&gt;告诉服务端我客户端开启了一个1025端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-20">
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-25" value="客户端开始发送信息给服务端，&lt;br&gt;告诉服务端，我是主动模式，&lt;br&gt;并告诉服务端我客户端开启了一个1025端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-20">
           <mxGeometry x="-0.1711" y="-1" relative="1" as="geometry">
             <mxPoint x="23.82" as="offset" />
           </mxGeometry>
@@ -115,6 +115,91 @@
         <mxCell id="6WTvOl6pzolPNPpMW-SW-28" value="随后由服务端发起，启动20端口，三次握手，&lt;br&gt;和客户端的1025端口建立一个TCP连接，&lt;br&gt;用来传输数据，所以主动模式客户端要开启&lt;br&gt;1025端口的防火墙。" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-27">
           <mxGeometry x="-0.1939" y="1" relative="1" as="geometry">
             <mxPoint x="-77.16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-29" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="79" y="465" width="100" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-30" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="398" y="466" width="121" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-31" value="&amp;gt;1024（data）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-32" value="&amp;gt;1024（cmd）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-33" value="21（cmd）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-34" value="&amp;gt;1024&lt;br&gt;(data)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-35" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99" y="810" as="sourcePoint" />
+            <mxPoint x="99" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-36" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154" y="810" as="sourcePoint" />
+            <mxPoint x="153.5000000000001" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-37" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="810" as="sourcePoint" />
+            <mxPoint x="422.66" y="549.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-38" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487" y="810" as="sourcePoint" />
+            <mxPoint x="487" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149" y="609.9999999999998" as="sourcePoint" />
+            <mxPoint x="429" y="629.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-40" value="客户端发送信息给服务端，&lt;br&gt;告诉服务我是PASV模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-39">
+          <mxGeometry x="-0.1711" y="-1" relative="1" as="geometry">
+            <mxPoint x="23.82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-41" value="服务器收到后，开启一个临时端口&lt;br&gt;例如1026，并告诉客户端&lt;br&gt;我用1026端口你可以连接" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0711" y="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="649.9999999999998" as="sourcePoint" />
+            <mxPoint x="149" y="669.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-42" value="被动模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="189" y="430" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-43" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149" y="559.9999999999998" as="sourcePoint" />
+            <mxPoint x="429" y="559.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-44" value="由客户端发起，三次握手，&lt;br&gt;和服务端21端口建立一个TCP连接&lt;br&gt;用来传输命令" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-43">
+          <mxGeometry x="-0.1939" y="1" relative="1" as="geometry">
+            <mxPoint x="-53.1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-45" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99" y="719.9999999999998" as="sourcePoint" />
+            <mxPoint x="489" y="709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-46" value="随后由客户端发起一个TCP连接，&lt;br&gt;自己开启一个1025端口，&lt;br&gt;三次握手，&lt;br&gt;去和目标服务器的1026端口&lt;br&gt;建立一个TCP连接，&lt;br&gt;用来传输数据，&lt;br&gt;所以被动模式是由客户端发起的&lt;br&gt;数据传输的连接，所以服务端需要&lt;br&gt;开启对应防火墙的端口，&lt;br&gt;一个客户端一个临时端口。" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-45">
+          <mxGeometry x="-0.1939" y="1" relative="1" as="geometry">
+            <mxPoint x="-56.16" y="45.03" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
