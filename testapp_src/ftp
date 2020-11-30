@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T07:01:44.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ztCA4qelNC7JVIGxMCqw" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T08:23:42.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="iPilOoyauaLS5XFiysVW" version="13.10.4" type="github">
   <diagram id="kopYDX6gN_QNqiy2eTGY" name="Page-1">
-    <mxGraphModel dx="528" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="764" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,9 +8,9 @@
           <mxGeometry x="90" y="65" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-1" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="350" y="66" width="121" height="30" as="geometry" />
+          <mxGeometry x="409" y="66" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-2" value="20（data）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-2" value="&amp;gt;1024（data）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="100" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-4" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -41,43 +41,80 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-13" value="21（cmd）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-13" value="&amp;gt;1024（cmd）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="100" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-14" value="21（cmd）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="100" width="50" height="30" as="geometry" />
+          <mxGeometry x="409" y="100" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6WTvOl6pzolPNPpMW-SW-15" value="&amp;gt;1024&lt;br&gt;(data)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="100" width="50" height="30" as="geometry" />
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-15" value="20&lt;br&gt;(data)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="100" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-16" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="330" as="sourcePoint" />
+            <mxPoint x="110" y="360" as="sourcePoint" />
             <mxPoint x="110" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-17" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="164.5" y="330" as="sourcePoint" />
+            <mxPoint x="165" y="360" as="sourcePoint" />
             <mxPoint x="164.5" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-18" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="330" as="sourcePoint" />
-            <mxPoint x="380" y="130" as="targetPoint" />
+            <mxPoint x="439" y="360" as="sourcePoint" />
+            <mxPoint x="439" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-19" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="439" y="330" as="sourcePoint" />
-            <mxPoint x="439" y="130" as="targetPoint" />
+            <mxPoint x="498" y="360" as="sourcePoint" />
+            <mxPoint x="498" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6WTvOl6pzolPNPpMW-SW-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="200" as="sourcePoint" />
-            <mxPoint x="240" y="150" as="targetPoint" />
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-25" value="客户端开始发送信息给服务端，&lt;br&gt;告诉服务端我客户端开启了一个1025端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-20">
+          <mxGeometry x="-0.1711" y="-1" relative="1" as="geometry">
+            <mxPoint x="23.82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-21" value="服务端返回确认，同意开始" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0711" y="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="160" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-22" value="主动模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-23" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-24" value="由客户端发起，三次握手，&lt;br&gt;和服务端21端口建立一个TCP连接&lt;br&gt;用来传输命令" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-23">
+          <mxGeometry x="-0.1939" y="1" relative="1" as="geometry">
+            <mxPoint x="-53.1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-27" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6WTvOl6pzolPNPpMW-SW-28" value="随后由服务端发起，启动20端口，三次握手，&lt;br&gt;和客户端的1025端口建立一个TCP连接，&lt;br&gt;用来传输数据，所以主动模式客户端要开启&lt;br&gt;1025端口的防火墙。" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6WTvOl6pzolPNPpMW-SW-27">
+          <mxGeometry x="-0.1939" y="1" relative="1" as="geometry">
+            <mxPoint x="-77.16" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
